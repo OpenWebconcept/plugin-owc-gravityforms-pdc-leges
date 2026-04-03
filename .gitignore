@@ -1,0 +1,22 @@
+# Composer
+/vendor/
+
+# Node
+/node_modules/
+
+# Build artifacts
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# PHP
+*.cache
+
+# WordPress
+*.pot

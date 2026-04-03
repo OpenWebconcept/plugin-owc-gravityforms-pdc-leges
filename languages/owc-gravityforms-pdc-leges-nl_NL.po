@@ -1,0 +1,77 @@
+# Dutch translation for OWC | GravityForms PDC Leges
+# Copyright (C) 2026 Yard | Digital Agency
+# This file is distributed under the EUPL.
+msgid ""
+msgstr ""
+"Project-Id-Version: OWC | GravityForms PDC Leges 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/owc-gravityforms-pdc-leges\n"
+"PO-Revision-Date: 2026-04-07 00:00+0000\n"
+"Last-Translator: Yard | Digital Agency\n"
+"Language-Team: Dutch <nl@li.org>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: owc-gravityforms-pdc-leges\n"
+
+#. Plugin Name of the plugin
+#: owc-gravityforms-pdc-leges.php
+msgid "OWC | GravityForms PDC Leges"
+msgstr "OWC | GravityForms PDC Leges"
+
+#. Plugin URI of the plugin
+#: owc-gravityforms-pdc-leges.php
+msgid "https://github.com/OpenWebconcept/plugin-owc-gravityforms-pdc-leges"
+msgstr ""
+
+#. Description of the plugin
+#: owc-gravityforms-pdc-leges.php
+msgid "Fetches leges rates automatically from a PDC leges endpoint and uses them to override the price of Gravity Forms product fields."
+msgstr "Haalt automatisch legesprijzen op uit een PDC-leges endpoint en gebruikt deze om de prijs van Gravity Forms productvelden te overschrijven."
+
+#. Author of the plugin
+#: owc-gravityforms-pdc-leges.php
+msgid "Yard | Digital Agency"
+msgstr ""
+
+#. Author URI of the plugin
+#: owc-gravityforms-pdc-leges.php
+msgid "https://www.yard.nl"
+msgstr ""
+
+#: src/GravityForms/FieldSettings.php:39
+msgid "PDC Leges ID"
+msgstr "PDC Leges ID"
+
+#: src/GravityForms/FieldSettings.php:46
+msgid "E.g. 43004"
+msgstr "Bijv. 43004"
+
+#: src/GravityForms/FieldSettings.php:50
+msgid "Enter the PDC Leges ID to automatically fetch the price from the configured endpoint. Leave empty to use the manually entered price."
+msgstr "Vul het PDC Leges ID in om de prijs automatisch op te halen uit het geconfigureerde endpoint. Laat leeg om de handmatig ingevoerde prijs te gebruiken."
+
+#: src/GravityForms/FieldSettings.php:98
+msgid "Enter the PDC leges ID to automatically fetch the price. Leave empty to use the manual price."
+msgstr "Vul het PDC leges ID in om de prijs automatisch op te halen. Laat leeg om de handmatige prijs te gebruiken."
+
+#: src/GravityForms/PdcLegesAddon.php:85
+msgid "PDC leges settings"
+msgstr "PDC-leges instellingen"
+
+#: src/GravityForms/PdcLegesAddon.php:86
+msgid "Configure the PDC leges endpoint. Prices are automatically fetched and cached for product fields linked to a PDC Leges ID."
+msgstr "Configureer het PDC-leges endpoint. Prijzen worden automatisch opgehaald en gecached voor productvelden waaraan een PDC Leges ID is gekoppeld."
+
+#: src/GravityForms/PdcLegesAddon.php:90
+msgid "PDC leges API endpoint"
+msgstr "PDC-leges API endpoint"
+
+#: src/GravityForms/PdcLegesAddon.php:94
+msgid "Full URL to the PDC leges endpoint. Example: https://gemeente.nl/wp-json/pdc-leges/v1/products"
+msgstr "Volledige URL naar het PDC-leges endpoint. Voorbeeld: https://gemeente.nl/wp-json/pdc-leges/v1/products"
+
+#: src/GravityForms/PdcLegesAddon.php:112
+msgid "Please enter a valid URL for the PDC leges endpoint."
+msgstr "Vul een geldige URL in voor het PDC-leges endpoint."

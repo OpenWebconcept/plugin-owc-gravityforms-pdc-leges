@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<ruleset name="OWCGravityFormsPdcLeges">
+	<arg name="extensions" value="php"/>
+
+	<exclude-pattern>.github/*</exclude-pattern>
+	<exclude-pattern>vendor/*</exclude-pattern>
+
+	<arg name="parallel" value="8"/>
+	<arg name="colors"/>
+
+	<file>.</file>
+	<arg name="cache"/>
+	<arg name="basepath" value="./"/>
+	<arg value="ps"/>
+
+	<config name="minimum_supported_wp_version" value="6.7"/>
+
+	<rule ref="WordPress">
+		<exclude name="WordPress.Files.FileName.NotHyphenatedLowercase"/>
+		<exclude name="WordPress.Files.FileName.InvalidClassFileName"/>
+		<exclude name="Squiz.Commenting.FileComment.Missing"/>
+		<exclude name="Squiz.Strings.DoubleQuoteUsage.NotRequired"/>
+		<exclude name="Generic.Classes.OpeningBraceSameLine.BraceOnNewLine"/>
+		<exclude name="Generic.Functions.OpeningFunctionBraceKernighanRitchie.BraceOnNewLine"/>
+		<exclude name="Squiz.Commenting.FunctionComment.Missing"/>
+		<exclude name="Generic.ControlStructures.InlineControlStructure.NotAllowed"/>
+		<exclude name="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+		<exclude name="Generic.Arrays.DisallowShortArraySyntax.Found"/>
+		<exclude name="Generic.Commenting.DocComment.MissingShort"/>
+		<exclude name="WordPress.NamingConventions.ValidFunctionName.MethodNameInvalid"/>
+		<exclude name="Squiz.Commenting.VariableComment.Missing"/>
+		<exclude name="Squiz.Commenting.InlineComment.SpacingBefore"/>
+		<exclude name="Squiz.Commenting.FunctionComment.MissingParamComment"/>
+		<exclude name="Squiz.Commenting.FunctionComment.MissingParamTag"/>
+		<exclude name="Squiz.Commenting.FunctionComment.ParamCommentFullStop"/>
+		<exclude name="Squiz.Commenting.FunctionComment.ThrowsNoFullStop"/>
+	</rule>
+	<rule ref="WordPress-Docs"/>
+	<rule ref="Squiz.Commenting.DocCommentAlignment"/>
+	<rule ref="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+	<rule ref="Squiz.Classes.ClassDeclaration.OpenBraceNewLine"/>
+</ruleset>
