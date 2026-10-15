@@ -19,6 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+use GFCommon;
 use OWC\GravityForms\PdcLeges\Services\PdcLegesService;
 
 /**
@@ -57,9 +58,9 @@ class PriceOverride
 				continue; // Price could not be retrieved, fall back to configured GF price.
 			}
 
-			// GF parses basePrice with GFCommon::to_number(), so a plain decimal
-			// string like "180.00" is safe to assign here.
-			$field->basePrice = $price;
+			// GF stores basePrice formatted in the form currency, and its frontend
+			// re-parses it that way: a raw "53.80" becomes € 5.380,00 under EUR.
+			$field->basePrice = GFCommon::to_money( $price );
 		}
 
 		return $form;
