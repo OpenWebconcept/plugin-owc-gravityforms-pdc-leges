@@ -1,7 +1,7 @@
 {
 	"name": "plugin/owc-gravityforms-pdc-leges",
 	"description": "Haalt automatisch legestarieven op uit een PDC-leges endpoint voor Gravity Forms productvelden.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"type": "wordpress-plugin",
 	"license": "EUPL-1.2",
 	"authors": [

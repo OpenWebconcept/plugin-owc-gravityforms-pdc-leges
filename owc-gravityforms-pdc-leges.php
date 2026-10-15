@@ -12,7 +12,7 @@ declare(strict_types=1);
  * Plugin Name:       OWC | GravityForms PDC Leges
  * Plugin URI:        https://github.com/OpenWebconcept/plugin-owc-gravityforms-pdc-leges
  * Description:       Fetches leges rates automatically from a PDC leges endpoint and uses them to override the price of Gravity Forms product fields.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Yard | Digital Agency
  * Author URI:        https://www.yard.nl
  * License:           EUPL
@@ -29,7 +29,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-const OWC_GF_PDC_LEGES_VERSION     = '1.0.0';
+const OWC_GF_PDC_LEGES_VERSION     = '1.0.1';
 const OWC_GF_PDC_LEGES_PLUGIN_SLUG = 'owc-gravityforms-pdc-leges';
 const OWC_GF_PDC_LEGES_FILE        = __FILE__;
 
